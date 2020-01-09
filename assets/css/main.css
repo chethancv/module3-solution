@@ -1,0 +1,96 @@
+.content1 {
+    width: 80%;
+    padding: 5px;
+    background-color: cadetblue;
+    height: 1000px;
+}
+
+.content2 {
+   width: 80%;
+    padding: 5px;
+    background-color: cadetblue;
+    height: 1000px;
+    margin-top: 20px;
+}
+
+.content3 {
+    width: 80%;
+    padding: 5px;
+    background-color: cadetblue;
+    height: 1000px;
+    margin-top: 20px;
+}
+#navbarSupportedContent{
+    text-align: center;
+    /* background-color: aliceblue; */
+}
+#navbarSupportedContent a{
+   border-color: solid black;
+}
+
+.collapse a{
+    background-color: white;
+    border: solid 1px black;
+    display: none;
+}
+/* #title1 {
+    border: solid black;
+    background-color: brown;
+    position: relative;
+    margin-right: -8px;
+    margin-top: -7px;
+    
+    width: 200px;
+}
+
+#title2 {
+    border: solid black;
+    background-color: lightcoral;
+    position: relative;
+    margin-right: -8px;
+    margin-top: -7px;
+    width: 200px;
+}
+
+#title3 {
+    border: solid black;
+    background-color: yellowgreen;
+    position: relative;
+    margin-right: -8px;
+    margin-top: -7px;
+   
+    width: 200px;
+} */
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .content3 {
+        margin-top: 10px;
+    }
+    .collapse a{
+        background-color: white;
+        border: solid 1px black;
+        display: block;
+    }
+    .collapse{
+        color: white;
+        
+       }
+}
+
+@media only screen and (max-width: 760px){
+    .content2{
+        margin-top:10px !important;
+    }
+    .content3{
+        margin-top:10px !important;
+    }
+    .collapse a{
+        background-color: white;
+        border: solid 1px black;
+        display: block; 
+       }
+       .collapse{
+        color: white;
+        
+       }
+}
